@@ -12,6 +12,7 @@ body {
     background: #333;
 }
 
+
 h1 {
     font-size: 40px;
     margin-top: 20px;
@@ -19,10 +20,28 @@ h1 {
     text-align: center;
 }
 
+.main-wrapper { 
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
 .team-container { 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.team-card-GS {
+    height: 500px;
+    width: 290px;
+    margin: 20px;
+    box-shadow: 0 3px 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    /* object-fit: coverb; */
+    background-color: #222;
 }
 
 .team-card { 
